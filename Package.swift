@@ -16,6 +16,7 @@ let package = Package(
     )
   ],
   dependencies: [
+    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", from: "1.53.0"),
     .package(url: "https://github.com/Banuba/BanubaVideoEditorCore-iOS.git", banubaCoreVersionRange)
   ],
   targets: [
